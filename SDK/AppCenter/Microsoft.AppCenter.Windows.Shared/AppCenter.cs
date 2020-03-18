@@ -159,13 +159,18 @@ namespace Microsoft.AppCenter
         {
             lock (AppCenterLock)
             {
-                var value = Instance._applicationSettings.GetValue<Guid?>(InstallIdKey);
+                var value = Instance._applicationSettings.GetValue<string>(InstallIdKey);
+                Guid? installIdValue;
                 if (value == null)
                 {
-                    value = Guid.NewGuid();
-                    Instance._applicationSettings.SetValue(InstallIdKey, value);
+                    installIdValue = Guid.NewGuid();
+                    Instance._applicationSettings.SetValue(InstallIdKey, installIdValue);
+                } 
+                else 
+                {
+                    installIdValue = new Guid(value);
                 }
-                return Task.FromResult(value);
+                return Task.FromResult(installIdValue);
             }
         }
 
