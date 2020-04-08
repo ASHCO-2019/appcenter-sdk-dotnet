@@ -1444,24 +1444,6 @@
          "Component":{
             "Type":"NuGet",
             "NuGet":{
-               "Name":"Microsoft.NETCore.UniversalWindowsPlatform",
-               "Version":""
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
-               "Name":"Newtonsoft.Json",
-               "Version":""
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
                "Name":"Microsoft.AspNetCore.StaticFiles",
                "Version":"2.2.0"
             }
@@ -1489,35 +1471,8 @@
          "Component":{
             "Type":"NuGet",
             "NuGet":{
-               "Name":"xunit",
-               "Version":""
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
-               "Name":"xunit.runner.devices",
-               "Version":""
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
-               "Name":"SQLitePCLRaw.bundle_green",
-               "Version":""
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
                "Name":"Castle.Core",
-               "Version":""
+               "Version":"4.4.0"
             }
          }
       },
@@ -1526,7 +1481,7 @@
             "Type":"NuGet",
             "NuGet":{
                "Name":"Microsoft.VisualStudio.TestPlatform",
-               "Version":""
+               "Version":"14.0.0"
             }
          }
       },
@@ -1535,7 +1490,7 @@
             "Type":"NuGet",
             "NuGet":{
                "Name":"Moq",
-               "Version":""
+               "Version":"4.13.1"
             }
          }
       },
@@ -1544,7 +1499,7 @@
             "Type":"NuGet",
             "NuGet":{
                "Name":"MSTest.TestFramework",
-               "Version":""
+               "Version":"2.1.0"
             }
          }
       },
@@ -1553,7 +1508,7 @@
             "Type":"NuGet",
             "NuGet":{
                "Name":"MSTest.TestAdapter",
-               "Version":""
+               "Version":"2.1.0"
             }
          }
       },
@@ -1562,7 +1517,7 @@
             "Type":"NuGet",
             "NuGet":{
                "Name":"Microsoft.NET.Test.Sdk",
-               "Version":""
+               "Version":"2.1.0"
             }
          }
       },
@@ -1571,7 +1526,7 @@
             "Type":"NuGet",
             "NuGet":{
                "Name":"Microsoft.CodeCoverage",
-               "Version":""
+               "Version":"16.5.0"
             }
          }
       },
@@ -1588,8 +1543,8 @@
          "Component":{
             "Type":"NuGet",
             "NuGet":{
-               "Name":"xunit.runner.visualstudio",
-               "Version":""
+               "Name":"Microsoft.NET.Test.Sdk",
+               "Version":"16.4.0"
             }
          }
       },
@@ -1597,8 +1552,35 @@
          "Component":{
             "Type":"NuGet",
             "NuGet":{
-               "Name":"Microsoft.NET.Test.Sdk",
-               "Version":"16.4.0"
+               "Name":"Microsoft.NETCore.UniversalWindowsPlatform",
+               "Version":"6.2.9"
+            }
+         }
+      },
+      {
+         "Component":{
+            "Type":"NuGet",
+            "NuGet":{
+               "Name":"Moq",
+               "Version":"4.7.12"
+            }
+         }
+      },
+      {
+         "Component":{
+            "Type":"NuGet",
+            "NuGet":{
+               "Name":"MSTest.TestAdapter",
+               "Version":"1.1.18"
+            }
+         }
+      },
+      {
+         "Component":{
+            "Type":"NuGet",
+            "NuGet":{
+               "Name":"MSTest.TestFramework",
+               "Version":"1.1.18"
             }
          }
       },
@@ -1626,24 +1608,6 @@
             "NuGet":{
                "Name":"Xamarin.Forms",
                "Version":"4.5.0.396"
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
-               "Name":"Microsoft.NETCore.UniversalWindowsPlatform",
-               "Version":"6.2.9"
-            }
-         }
-      },
-      {
-         "Component":{
-            "Type":"NuGet",
-            "NuGet":{
-               "Name":"Xamarin.Forms",
-               "Version":""
             }
          }
       },
