@@ -1,0 +1,221 @@
+{
+    "Registrations": [
+        {
+            "component": {
+                "type": "git",
+                "git": {
+                    "repositoryUrl": "https://github.com/microsoft/appcenter-sdk-android.git",
+                    "commitHash": "af4f0eecef83a0c6c00b26f9e12d215d0df21351"
+                }
+            }
+        },
+        {
+            "component": {
+                "type": "git",
+                "git": {
+                    "repositoryUrl": "https://github.com/microsoft/appcenter-sdk-apple.git",
+                    "commitHash": "68ef3d10a6e3f578d9f6a13ee65e0326b320f23c"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Arch.Core.Common",
+                    "Version": "1.0.0.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+                    "Version": "1.0.3.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+                    "Version": "1.0.3.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Animated.Vector.Drawable",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Annotations",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Compat",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Core.UI",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Core.Utils",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Design",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Fragment",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Media.Compat",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Transition",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.v4",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.v7.AppCompat",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.v7.RecyclerView",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Android.Support.Vector.Drawable",
+                    "Version": "27.0.2.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Build.Download",
+                    "Version": "0.4.11"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Firebase.Common",
+                    "Version": "60.1142.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Firebase.Iid",
+                    "Version": "60.1142.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.Firebase.Messaging",
+                    "Version": "60.1142.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.GooglePlayServices.Basement",
+                    "Version": "60.1142.1"
+                }
+            }
+        },
+        {
+            "Component": {
+                "Type": "NuGet",
+                "NuGet": {
+                    "Name": "Xamarin.GooglePlayServices.Tasks",
+                    "Version": "60.1142.1"
+                }
+            }
+        }
+    ],
+    "Version": 1
+}
