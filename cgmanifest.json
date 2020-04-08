@@ -1,716 +1,2570 @@
 {
     "Registrations": [
-        {
-            "component": {
-                "type": "git",
-                "git": {
-                    "repositoryUrl": "https://github.com/microsoft/appcenter-sdk-android.git",
-                    "commitHash": "af4f0eecef83a0c6c00b26f9e12d215d0df21351"
-                }
-            }
-        },
-        {
-            "component": {
-                "type": "git",
-                "git": {
-                    "repositoryUrl": "https://github.com/microsoft/appcenter-sdk-apple.git",
-                    "commitHash": "68ef3d10a6e3f578d9f6a13ee65e0326b320f23c"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Arch.Core.Common",
-                    "Version": "1.0.0.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Arch.Lifecycle.Common",
-                    "Version": "1.0.3.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
-                    "Version": "1.0.3.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Animated.Vector.Drawable",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Annotations",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Compat",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Core.UI",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Core.Utils",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Design",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Fragment",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Media.Compat",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Transition",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.v4",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.v7.AppCompat",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.v7.RecyclerView",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Android.Support.Vector.Drawable",
-                    "Version": "27.0.2.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Build.Download",
-                    "Version": "0.4.11"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Firebase.Common",
-                    "Version": "60.1142.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Firebase.Iid",
-                    "Version": "60.1142.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Firebase.Messaging",
-                    "Version": "60.1142.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.GooglePlayServices.Basement",
-                    "Version": "60.1142.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.GooglePlayServices.Tasks",
-                    "Version": "60.1142.1"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Newtonsoft.Json",
-                    "Version": "12.0.3"
-                }
-            }
-        },
-        {
-            "Component": {
-                "Type": "NuGet",
-                "NuGet": {
-                    "Name": "Xamarin.Forms",
-                    "Version": "4.5.0.396"
-                }
-            }
-        },{
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"GoogleGson",
-                  "Version":"2.8.5"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"HockeySDK.Xamarin",
-                  "Version":"5.2.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Core.Common",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Core.Runtime",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Lifecycle.Common",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Lifecycle.LiveData",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Lifecycle.LiveData.Core",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Lifecycle.Runtime",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Arch.Lifecycle.ViewModel",
-                  "Version":"1.1.1.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Animated.Vector.Drawable",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Annotations",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.AsyncLayoutInflater",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Collections",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Compat",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.CoordinaterLayout",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Core.UI",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Core.Utils",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.CursorAdapter",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.CustomTabs",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.CustomView",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Design",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.DocumentFile",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.DrawerLayout",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Fragment",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Interpolator",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Loader",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.LocalBroadcastManager",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Media.Compat",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Print",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.SlidingPaneLayout",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.SwipeRefreshLayout",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Transition",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.v4",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.v7.AppCompat",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.v7.CardView",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.v7.MediaRouter",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.v7.Palette",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.v7.RecyclerView",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.Vector.Drawable",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.VersionedParcelable",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Android.Support.ViewPager",
-                  "Version":"28.0.0.1"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Build.Download",
-                  "Version":"0.4.11"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Firebase.Common",
-                  "Version":"71.1610.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Firebase.Iid",
-                  "Version":"71.1710.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Firebase.Iid.Interop",
-                  "Version":"71.1601.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Firebase.Measurement.Connector",
-                  "Version":"71.1701.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Firebase.Messaging",
-                  "Version":"71.1740.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Forms",
-                  "Version":"4.1.0.581479"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.Google.AutoValue.Annotations",
-                  "Version":"1.6.5"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.GooglePlayServices.Base",
-                  "Version":"71.1610.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.GooglePlayServices.Basement",
-                  "Version":"71.1620.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.GooglePlayServices.Stats",
-                  "Version":"71.1601.0"
-               }
-            }
-         },
-         {
-            "Component":{
-               "Type":"NuGet",
-               "NuGet":{
-                  "Name":"Xamarin.GooglePlayServices.Tasks",
-                  "Version":"71.1601.0"
-               }
-            }
-         }
-
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Cake",
+            "Version": "0.33.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Common",
+            "Version": "1.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+            "Version": "1.0.3.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+            "Version": "1.0.3.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Animated.Vector.Drawable",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Annotations",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Compat",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.UI",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.Utils",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Design",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Fragment",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Media.Compat",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Transition",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v4",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.AppCompat",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.RecyclerView",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Vector.Drawable",
+            "Version": "27.0.2.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Build.Download",
+            "Version": "0.4.11"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Common",
+            "Version": "60.1142.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid",
+            "Version": "60.1142.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Messaging",
+            "Version": "60.1142.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Basement",
+            "Version": "60.1142.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Tasks",
+            "Version": "60.1142.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Newtonsoft.Json",
+            "Version": "12.0.2"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Microsoft.NETCore.Platforms",
+            "Version": "3.0.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "NETStandard.Library",
+            "Version": "2.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Newtonsoft.Json",
+            "Version": "12.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Numerics.Vectors",
+            "Version": "4.5.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Common",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Runtime",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData.Core",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.ViewModel",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Animated.Vector.Drawable",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Annotations",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.AsyncLayoutInflater",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Collections",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Compat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CoordinaterLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.UI",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.Utils",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CursorAdapter",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomTabs",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomView",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Design",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DocumentFile",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DrawerLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Fragment",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Interpolator",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Loader",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.LocalBroadcastManager",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Media.Compat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Print",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SlidingPaneLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SwipeRefreshLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Transition",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v4",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.AppCompat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.CardView",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.MediaRouter",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.Palette",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.RecyclerView",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Vector.Drawable",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.VersionedParcelable",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.ViewPager",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Essentials",
+            "Version": "1.3.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Forms",
+            "Version": "4.3.0.991211"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit",
+            "Version": "2.4.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.abstractions",
+            "Version": "2.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.analyzers",
+            "Version": "0.10.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.assert",
+            "Version": "2.4.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.core",
+            "Version": "2.4.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.extensibility.core",
+            "Version": "2.4.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.extensibility.execution",
+            "Version": "2.4.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "xunit.runner.devices",
+            "Version": "2.5.25"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "GoogleGson",
+            "Version": "2.8.5"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "HockeySDK.Xamarin",
+            "Version": "5.2.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Common",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Runtime",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData.Core",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.ViewModel",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Animated.Vector.Drawable",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Annotations",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.AsyncLayoutInflater",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Collections",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Compat",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CoordinaterLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.UI",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.Utils",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CursorAdapter",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomTabs",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomView",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Design",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DocumentFile",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DrawerLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Fragment",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Interpolator",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Loader",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.LocalBroadcastManager",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Media.Compat",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Print",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SlidingPaneLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SwipeRefreshLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Transition",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v4",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.AppCompat",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.CardView",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.MediaRouter",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.Palette",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.RecyclerView",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Vector.Drawable",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.VersionedParcelable",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.ViewPager",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Build.Download",
+            "Version": "0.4.11"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Common",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid",
+            "Version": "71.1710.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid.Interop",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Measurement.Connector",
+            "Version": "71.1701.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Messaging",
+            "Version": "71.1740.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Forms",
+            "Version": "4.1.0.581479"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Google.AutoValue.Annotations",
+            "Version": "1.6.5"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Base",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Basement",
+            "Version": "71.1620.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Stats",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Tasks",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "HockeySDK.Xamarin",
+            "Version": "5.2.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Newtonsoft.Json",
+            "Version": "12.0.2"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Common",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Runtime",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData.Core",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.ViewModel",
+            "Version": "1.1.1.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Animated.Vector.Drawable",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Annotations",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.AsyncLayoutInflater",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Collections",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Compat",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CoordinaterLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.UI",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.Utils",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CursorAdapter",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomTabs",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomView",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Design",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DocumentFile",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DrawerLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Fragment",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Interpolator",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Loader",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.LocalBroadcastManager",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Media.Compat",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Print",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SlidingPaneLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SwipeRefreshLayout",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Transition",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v4",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.AppCompat",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.CardView",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.MediaRouter",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.Palette",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v7.RecyclerView",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Vector.Drawable",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.VersionedParcelable",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.ViewPager",
+            "Version": "28.0.0.1"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Build.Download",
+            "Version": "0.4.11"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Common",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid",
+            "Version": "71.1710.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid.Interop",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Measurement.Connector",
+            "Version": "71.1701.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Messaging",
+            "Version": "71.1740.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Forms",
+            "Version": "4.1.0.581479"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Google.AutoValue.Annotations",
+            "Version": "1.6.5"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Base",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Basement",
+            "Version": "71.1620.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Stats",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Tasks",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Microsoft.CSharp",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Newtonsoft.Json",
+            "Version": "12.0.2"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Collections",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.ComponentModel.TypeConverter",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Diagnostics.Debug",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Dynamic.Runtime",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Globalization",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.IO",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Linq",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Linq.Expressions",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.ObjectModel",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Reflection",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Reflection.Extensions",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Resources.ResourceManager",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Runtime",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Runtime.Extensions",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Runtime.Numerics",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Runtime.Serialization.Formatters",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Runtime.Serialization.Primitives",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Text.Encoding",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Text.Encoding.Extensions",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Text.RegularExpressions",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Threading",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Threading.Tasks",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Xml.ReaderWriter",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Xml.XDocument",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "System.Xml.XmlDocument",
+            "Version": "4.3.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Forms",
+            "Version": "4.0.0.482894"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Common",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Runtime",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData.Core",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.ViewModel",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Annotations",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.AsyncLayoutInflater",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Collections",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Compat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CoordinaterLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.UI",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.Utils",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CursorAdapter",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomView",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DocumentFile",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DrawerLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Fragment",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Interpolator",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Loader",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.LocalBroadcastManager",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Media.Compat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Print",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SlidingPaneLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SwipeRefreshLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.VersionedParcelable",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.ViewPager",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Build.Download",
+            "Version": "0.4.11"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Common",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid",
+            "Version": "71.1710.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Messaging",
+            "Version": "71.1740.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Basement",
+            "Version": "71.1620.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Tasks",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Common",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Core.Runtime",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Common",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.LiveData.Core",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.Runtime",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Arch.Lifecycle.ViewModel",
+            "Version": "1.1.1.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Annotations",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.AsyncLayoutInflater",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Collections",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Compat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CoordinaterLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.UI",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Core.Utils",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CursorAdapter",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.CustomView",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DocumentFile",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.DrawerLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Fragment",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Interpolator",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Loader",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.LocalBroadcastManager",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Media.Compat",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.Print",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SlidingPaneLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.SwipeRefreshLayout",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.v4",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.VersionedParcelable",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Android.Support.ViewPager",
+            "Version": "28.0.0.3"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Build.Download",
+            "Version": "0.4.11"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Common",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid",
+            "Version": "71.1710.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Iid.Interop",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Measurement.Connector",
+            "Version": "71.1701.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Firebase.Messaging",
+            "Version": "71.1740.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.Google.AutoValue.Annotations",
+            "Version": "1.6.5"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Base",
+            "Version": "71.1610.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Basement",
+            "Version": "71.1620.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Stats",
+            "Version": "71.1601.0"
+          }
+        }
+      },
+      {
+        "Component": {
+          "Type": "NuGet",
+          "NuGet": {
+            "Name": "Xamarin.GooglePlayServices.Tasks",
+            "Version": "71.1601.0"
+          }
+        }
+      }
     ],
     "Version": 1
 }
